@@ -1,0 +1,32 @@
+{
+	"chmod": "0755",
+	"main": "main.php",
+	"output": "timertictacbot.phar",
+	"finder": [
+		{
+			"name": "*.php",
+			"in": "."
+		},
+		{
+			"name": "composer.json",
+			"in": "."
+		},
+		{
+			"name": "*.php",
+			"exclude": [
+				"test",
+				"tests"
+			],
+			"in": "vendor"
+		},
+		{
+			"name": "*.json",
+			"exclude": [
+				"test",
+				"tests"
+			],
+			"in": "vendor"
+		}
+	],
+	"stub": true
+}

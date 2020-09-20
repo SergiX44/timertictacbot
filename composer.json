@@ -1,0 +1,7 @@
+{
+    "require": {
+        "badfarm/zanzara": "^0.4.0",
+        "nesbot/carbon": "^2.40",
+		"ext-json": "*"
+	}
+}
